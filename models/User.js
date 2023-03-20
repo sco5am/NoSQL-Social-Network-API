@@ -6,12 +6,12 @@ const userSchema = new Schema(
         type: String,
         required: true,
         unique: true,
-        maxlength: 50,
-        minlength: 4,
+        trim: true
       },
       email: {
         type: String,
         required: true,
+        unique: true,
         match: [/.+@.+\..+/]
       },
       thoughts: [
@@ -30,8 +30,8 @@ const userSchema = new Schema(
     {
         toJSON: {
             virtuals: true,
-            getters: true
         },
+        id: false,
     },
   );
 
