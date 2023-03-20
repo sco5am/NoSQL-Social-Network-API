@@ -1,37 +1,36 @@
 # NoSQL-Social-Network-API
 
+![](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB)  ![](https://img.shields.io/badge/npm%20package-express-orange?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-mongoose-cyan?style=flat-square&logo=npm) 
+
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+For this assignment I was tasked with creating an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. I used Express.js for routing, MongoDB for the database, and the Mongoose ODM. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project helped me to better familiarize myself with MongoDB, as well as using Insomnia to test my API routes. 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+This repo is not deployed, but the API routes can be tested by downloading the repo files, installing MongoDB, and running the following on the command line:
+ ```
+    - npm init -y
+    - npm install express
+    - npm install mongoose
+    - npm install moment
+    - npm start
+```
+Once the server is started by running npm start, you can open Insomnia and test the API routes as shown in the Video Walkthrough below.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Below is a screenshot of the API routes in Insomnia, as well as a walkthrough video showing the various routes.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+[Walkthrough video](https://www.youtube.com/watch?v=MT7DjD33d-M&ab_channel=gstzomboi)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![](/assets/images/Insomnia%203_20_2023%204_17_45%20PM%20(2).png)
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 MIT License
 
